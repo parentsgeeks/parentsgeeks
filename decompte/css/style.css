@@ -15,18 +15,19 @@ body, html {
 }
 .barre {
     width: 500px;
-    height: 50px;
+    height: 55px;
     border: 5px solid #dd4d00;
-    border-radius: 5px;
+    border-radius: 8px;
     position: relative;
     z-index: 100;
 }
 .content-barre {
     width: 0;
-    height: 50px;
+    height: 55px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
-    background: #07203e;
+    background: #fff;
+    opacity: 0.75;
 }
